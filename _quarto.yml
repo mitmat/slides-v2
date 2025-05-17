@@ -1,5 +1,12 @@
 project:
-  title: "slides-v2"
+  type: website
 
+website:
+  title: "Collection of slides for teaching and other presentations"
 
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
 
