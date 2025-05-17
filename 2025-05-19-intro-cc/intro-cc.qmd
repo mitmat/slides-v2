@@ -1,0 +1,994 @@
+---
+title: "Snow cover in a changing climate"
+subtitle: "Introduction to Climate Change - UniTrento 2024/25"
+author: "Michael Matiu"
+date: "2025/05/19"
+format:
+  revealjs: 
+    theme: [simple, custom.scss]
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r}
+library(bsicons)
+```
+
+
+
+## Outline
+
+1. Snow: what is it,  why is it important, how is it measured
+2. European Alps: Snow climatology and past trends
+3. The future snow cover in the European Alps
+
+
+# What is snow? </br> (for you)?
+
+## Your opinion
+
+
+:::: {.columns}
+
+::: {.column}
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/MCAMGB/questions/6822da9f146a3737bdfdfac3" width="100%"></iframe>
+
+:::
+
+::: {.column}
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/MCAMGB/questions/6822da9f146a3737bdfdfac3" width="100%"></iframe>
+
+:::
+
+::::
+
+
+
+
+<!-- snow shovelling -->
+##  {background-image="../fig/snow-shoveling.jpg" background-size="cover" #snow-shoveling data-menu-title="Snow shoveling"}
+
+::: aside
+Image by <a href="https://pixabay.com/users/alehandra13-1817807/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3146420">Alehandra13</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3146420">Pixabay</a>
+:::
+
+
+## Other opinions
+
+> "Acqua."
+
+. . .
+
+> "Niederschlag."
+
+. . .
+
+> "Quando ero giovane, pura gioia. Adesso solo scocciatura."
+
+. . .
+
+> "I don't know what snow is."
+
+. . . 
+
+> "Stupore, allegria. In macchina paura. Bello in montagna."
+
+
+<!-- snow magic -->
+##  {background-image="../fig/snowfall2.jpg" background-size="cover" #snow-magic data-menu-title="Snow magic" }
+
+::: aside
+Photo <a href="https://pixabay.com/users/cocoparisienne-127419/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1861704">Anja</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1861704">Pixabay</a>
+:::
+
+
+
+<!-- snow grain types -->
+##  {background-image="../fig/snow-grains.png" background-size="contain" #snow-grain-types data-menu-title="Snow grain types"}
+
+::: aside
+[Snow classification](https://cryosphericsciences.org/publications/snow-classification/)
+:::
+
+<!-- snow grain types, function of temp -->
+## {background-image="../fig/snow-grains-temperature.jpg" background-size="contain" #snow-grain-types-temperature data-menu-title="Snow grain types and temperature"}
+
+::: aside
+[Libbrecht 2005, after Furukawa](https://dx.doi.org/10.1088/0034-4885/68/4/R03)
+:::
+
+
+
+<!-- snow layer wind -->
+##  {background-image="../fig/snow-layer-wind.jpg" background-size="cover" #snow-layer data-menu-title="Snow layers"}
+
+::: aside
+Image by <a href="https://pixabay.com/users/natalia_kollegova-5226803/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3173001">Наталья Коллегова</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3173001">Pixabay</a>
+:::
+
+
+# Why is snow important?
+
+
+## Albedo {background-image="../fig/albedo-examples.png" background-size="contain"}
+
+::: aside
+Source: [studyflix.de](https://studyflix.de/erdkunde/albedo-5698/)
+:::
+
+
+
+## Albedo ... more examples
+
+<img height="500" alt="Albedo explanation" src="../fig/albedo-examples2.png">
+<!-- Asphalt 0.04-0.12, Aluminium 0.85 -->
+
+::: aside
+Source: [wikipedia.org](https://en.wikipedia.org/wiki/Albedo)
+:::
+
+
+
+
+## Snow as natural water storage
+
+
+![](../fig/snow-nz-3.JPG){.absolute top=250 left=0 width="400"}
+![](../fig/Kraftwerk Lappach_Neves Stausee_Alperia_1200px.jpg){.absolute top=250 right=0 width="400"}
+![](../fig/eq.png){.absolute top=300 left=450 width="150"}
+
+
+::: aside
+Source: [Alperia](https://landesregierung.provinz.bz.it/de/news/umweltplane-fur-kraftwerke-lappach-muhlen-und-sarnthein-genehmigt)
+:::
+
+
+<!-- CIMA SWE adige 2024 -->
+## {background-image="../fig/cima-snow-2025-adige.png" background-size="contain" #cima-swe-adige-2024 data-menu-title="CIMA SWE reanalysis Adige"}
+
+::: aside
+Source: [CIMA](https://www.cimafoundation.org/news/neve-acqua-estate-report-cima-2025/)
+:::
+
+
+## 2022 Drought in the Po valley
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+<a href="https://www.theguardian.com/world/2022/jun/17/italy-drought-po-river-climate-crisis"><img alt="Screenshot of guardian article on 2022 Italian snow drought" src="../fig/guardian1.png"></a>
+:::
+
+::: {.column width="40%"}
+<a href="https://www.theguardian.com/world/2022/jun/17/italy-drought-po-river-climate-crisis"><img alt="Screenshot of guardian article on 2022 Italian snow drought" src="../fig/guardian2.png"></a>
+:::
+
+::::
+
+
+::: aside
+Source: [The Guardian](https://www.theguardian.com/world/2022/jun/17/italy-drought-po-river-climate-crisis)
+:::
+
+
+
+## 2022 Drought in the Po valley -> Snow drought
+
+
+::: {.r-stack}
+![](../fig/avanzi-2024-01-swe-anom.png){.fragment}
+
+![](../fig/avanzi-2024-02-restrictions.png){.fragment height="500"}
+:::
+
+::: aside
+Source: [Avanzi et al. 2024](https://doi.org/10.1038/s43247-024-01222-z)
+:::
+
+
+
+
+# How is snow measured?
+
+**(Focus here: macroscopic)**
+
+## In-situ
+
+::: {.r-stack}
+![](../fig/snow-measurement1.png){.fragment height="500"}
+
+![](../fig/snow-measurement5.png){.fragment height="500"}
+
+![](../fig/snow-measurement2.png){.fragment height="500"}
+
+![](../fig/snow-measurement3.png){.fragment height="550"}
+
+![](../fig/snow-measurement4.png){.fragment height="450"}
+:::
+
+
+::: aside
+Source: [European Snow Booklet](https://doi.org/10.16904/envidat.59)
+:::
+
+## From remote
+
+
+![](../fig/hu-2017-fig5_1200px.png)
+
+
+::: aside
+Source: [Hu et al., 2017](https://doi.org/10.3390/rs9101067)
+:::
+
+
+## Water equivalent, depth, bulk density
+
+$$ SWE = HS * \rho $$ 
+
+. . . 
+
+Example: 75cm depth, 300mm SWE
+
+. . .
+
+$$ \rho = \frac{300 mm}{75 cm} = \frac{300 \frac{kg}{m^2}}{0.75 m} = 400 \frac{kg}{m^3} $$
+
+
+## Common snow bulk densities
+
+| Type | Density | 
+|:---------|------:|
+| Freshly fallen snow     | 50-100   |
+| Damp new snow           | 100-200  |
+| Settled snow            | 200-300    |
+| Wind packed snow        | 350-400    |
+| Firn                    | 400-800    |
+| Very wet snow           | up to 800    |
+| Glacier ice             | above 800-900   |
+
+
+::: aside
+Overview of snow densities, [Source](https://www.sciencelearn.org.nz/resources/1391-snow-and-ice-density)
+:::
+
+
+
+
+## Some climatological snow cover indicators
+
+::: {.incremental}
+
+- Snow depth (HS)
+- Depth of snowfall (HN)
+- Snow water equivalent (SWE)
+- Snow density ($\rho$)
+- Snow presence (yes/no)
+- Snow cover duration (SCD)
+- Snow covered area (SCA)
+
+:::
+
+
+## What is a snow scientist? {.smaller}
+
+<!-- theory modeler, data collection, in-situ, ... -->
+
+
+
+::: {.incremental}
+
+- operational / civil protection (avalanche risk, snowload)
+- engineers that develop and test instruments
+- field studies
+- modelers (numerical models of varying complexity)
+- climatologists (-> me)
+- hydrologist
+- physicists (study mechanical and physical properties)
+- ...
+
+:::
+
+. . .
+
+-> there is not "the" snow scientist, often a combination
+
+
+
+
+
+
+
+
+
+## Climatolical analyses of snow cover {.smaller}
+
+::: {.incremental}
+
+1. Interdisciplinarity: 
+    a. atmosphere
+    b. often mountains (so complex physics)
+    c. accumulation (land surface)
+    d. impacts (runoff, hydropower, agriculture, tourism, ...)
+2. Scale issues and variability in
+    a. space
+    b. time
+    c. both
+
+:::
+
+
+
+<!-- Spatial scales and accumulation processes -->
+
+## {background-image="../fig/snow-scales-and-wind-processes.png" background-size="contain" #snow-scales-and-wind-processes data-menu-title="Snow scales and wind processes"}
+
+::: {.aside}
+Source: [Mott et al. 2018](https://doi.org/10.3389/feart.2018.00197)
+:::
+
+
+## Seasonality
+
+:::: {.columns}
+
+::: {.column}
+![](../fig/nh_map_2018_2022_biweekly.gif)
+:::
+
+::: {.column}
+![](../fig/nh-seasonal-clim.png)
+:::
+
+::::
+
+
+## Inter-annual variability
+
+:::: {.columns}
+
+::: {.column}
+![](../fig/nh_map_2018_2022_biweekly.gif)
+:::
+
+::: {.column}
+![](../fig/nh-interannual-feb.png)
+:::
+
+::::
+
+
+## Long-term trends
+
+:::: {.columns}
+
+::: {.column}
+![](../fig/nh_map_2018_2022_biweekly.gif)
+:::
+
+::: {.column}
+![](../fig/nh-interannual-jun.png)
+:::
+
+::::
+
+## Magnitude of area covered by snow {.smaller}
+
+
+:::: {.columns}
+
+::: {.column}
+![](../fig/nh-seasonal-clim.png)
+:::
+
+::: {.column}
+January on average 47 million km² ~ 
+
+::: {.incremental}
+- 150 Italys
+- 7580 provinces of Trento
+- 1/3 Northern Hemisphere land surface
+:::
+
+:::
+
+::::
+
+
+
+## Guess the snowfall
+
+
+
+
+:::: {.columns}
+
+::: {.column}
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/MCAMGB/questions/6822da9f146a3737bdfdfac3" width="100%"></iframe>
+
+:::
+
+::: {.column}
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/MCAMGB/questions/6822da9f146a3737bdfdfac3" width="100%"></iframe>
+
+:::
+
+::::
+
+
+
+
+
+
+## Guess the snowfall - details 1/3
+
+
+
+:::: {.columns}
+
+::: {.column}
+
+Trento Laste </br>
+46.07, 11.12, 312 m.a.s.l.
+
+avg Jan: 
+
+- `r bs_icon("thermometer-half")` 1.6°C
+- `r bs_icon("cloud-drizzle")` 42mm
+-  `r bs_icon("cloud-snow")` 16cm snowfall
+
+
+:::
+
+::: {.column}
+
+Bondone (viote) </br>
+46.01, 11.06, 1495 m.a.s.l.
+
+
+avg Jan: 
+
+- `r bs_icon("thermometer-half")` -2.5°C
+- `r bs_icon("cloud-drizzle")` 50mm
+-  `r bs_icon("cloud-snow")` 51cm snowfall
+
+
+:::
+
+::::
+
+
+## Guess the snowfall - details 2/3
+
+
+
+:::: {.columns}
+
+::: {.column}
+
+Sukayu Onsen </br>
+40.65, 140.85, 925 m.a.s.l.
+
+avg Jan:
+
+- `r bs_icon("thermometer-half")` -7.5°C
+- `r bs_icon("cloud-drizzle")` 117mm
+- `r bs_icon("cloud-snow")` 454cm snowfall
+
+
+:::
+
+::: {.column}
+
+
+![](../fig/sukayu-onsen.jpg)
+
+:::
+
+::::
+
+
+
+## Guess the snowfall - details 3/3
+
+
+
+:::: {.columns}
+
+::: {.column}
+
+
+Vostok Station </br>
+-78.47, 106.85, 3488 m.a.s.l.
+
+avg Jul:
+
+- `r bs_icon("thermometer-half")` -70.4°C
+- `r bs_icon("cloud-drizzle")` 2mm
+-  `r bs_icon("cloud-snow")` 2-6cm snowfall
+
+:::
+
+::: {.column}
+
+
+![](../fig/vostok-station-wikipedia.png)
+
+:::
+
+::::
+
+
+
+
+
+
+
+
+# European Alps: Snow climatology and past trends
+
+. . . 
+
+> "Climate is what we expect. <br/> Weather is what we get."
+
+
+
+
+## The Alps shaping the weather
+
+{{< video ../mov/alps-modulating-precip.mp4 >}}
+
+
+
+## Data source: Alpine-wide in-situ observations
+
+![](../fig/matiu-2021-fig1b.png)
+
+
+## {background-image="../fig/clim-hs-DJF_EN.png" background-size="contain" #clim-hs-DJF data-menu-title="Climatology: snow depth DJF"}
+
+## {background-image="../fig/clim-tmean-DJF_EN.png" background-size="contain"  #clim-temp-DJF data-menu-title="Climatology: temperature DJF"}
+
+## {background-image="../fig/clim-prec-DJF_EN.png" background-size="contain"  #clim-prec-DJF data-menu-title="Climatology: precipitation DJF"}
+
+## What comes after elevation?
+
+![](../fig/bag-kmeans.png)
+
+<!-- FORMULA STATISICS? -->
+
+## Introduction to k-means
+
+:::: {.columns}
+
+::: {.column}
+Unsupervised classification technique
+:::
+
+::: {.column}
+<a title="Chire, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:K-means_convergence.gif"><img alt="K-means convergence" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/K-means_convergence.gif/512px-K-means_convergence.gif?20170530143526"></a>
+:::
+
+::::
+
+
+
+
+::: {.aside}
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:K-means_convergence.gif)
+:::
+
+
+## Input to k-means: 
+
+Time series of daily snow depth (> 2000 stations, 30 years)
+
+![](../fig/some-HS-time-series.png)
+
+
+
+## {background-image="../fig/zones-simple.png" background-size="contain" #hs-zones data-menu-title="Snow depth zones"}
+
+
+## {background-image="../fig/clim-HS-DJF-region5_EN.png" background-size="contain" #clim-HS-DJF-region5 data-menu-title="Climatology: snow depth DJF by region"}
+
+## {background-image="../fig/clim-tmean-DJF-region5_EN.png" background-size="contain" #clim-temp-DJF-region5 data-menu-title="Climatology: temperature DJF by region"}
+
+## {background-image="../fig/clim-prec-DJF-region5_EN.png" background-size="contain" #clim-prec-DJF-region5 data-menu-title="Climatology: precipitation DJF by region"}
+
+
+
+
+# Snowfall 1921-2020
+
+(below 2000m)
+
+## Data source
+
+![](../fig/hn-study-01-clustering-nohistalp.png)
+
+
+
+## {.smaller background-image="../fig/smi-domodossola.png" background-size="cover" #smi-domodossola data-menu-title="Source of long-term snowfall data"}
+
+::: {style="background-color: #ece7f2; position: absolute; bottom: 0; left: 0; "}
+> "noi prepareremo pei nostri posteri un materiale ben ordinato e prezioso 
+per istabilire con ottimo fondamento il non facile edifizio 
+della climatologia delle nostre regioni, 
+al quale intendimento sono rivolti 
+i nostri sforzi e tutti i nostri studi" <br/> Denza F., BM 11(1), 1876
+
+Courtesy: Daniele Cat Berro, Società Meteorologica Italiana
+:::
+
+
+
+## {background-image="../fig/hn-study-02-sw-left.png" background-size="contain" #hn-study-sw-left data-menu-title="Long-term snowfall (SW zone)"}
+## {background-image="../fig/hn-study-02-sw.png" background-size="contain" #hn-study-sw data-menu-title="Long-term snowfall (SW zone) with temperature and precipitation"}
+## {background-image="../fig/hn-study-03-n.png" background-size="contain"  #hn-study-n data-menu-title="Long-term snowfall (N zone) with temperature and precipitation"}
+
+
+# Snow depth trends 1971 - 2019
+
+## One station - Arabba (Veneto, 1640m)
+
+![](../fig/arabba-novmay.png)
+
+## Trend - linear
+
+![](../fig/arabba-novmay-lm.png)
+
+## Trend - nonlinear
+
+![](../fig/arabba-novmay-lm-loess.png)
+
+## Trend - across the season
+
+![](../fig/arabba-monthly.png)
+
+## Trend - across the season - linear
+
+![](../fig/arabba-monthly-lm.png)
+
+## More indicators
+
+![](../fig/arabba-ts-more-indicators.png)
+
+
+## All stations 
+
+Results from statistical analysis: Linear Regression
+
+$$ y_i = \beta_0 + \beta_1 * x_i + \epsilon_i $$
+
+::: {.incremental style="font-size:0.8em"}
+- $y_i$ predictand (to be predicted)
+- $x_i$ predictor (used to predict, has a relationship to $y$)
+- $i$ observation number from $1...n$
+- $\epsilon \sim N(0,\sigma^2)$ normally distributed errors (random)
+- $\beta_.$ coefficients to be estimated
+  - $\beta_0$ intercept, value when $x=0$
+  - $\beta_1$ slope, change in $y$ per 1 unit of $x$
+:::
+
+
+## Linear regression in this case
+
+$$ y_i = \beta_0 + \beta_1 * i + \epsilon_i $$
+
+::: {.incremental style="font-size:0.8em"}
+- $i$ is year (1971-2019)
+- $y_i$ average snow depth (monthly, seasonally) in year $i$
+- $\beta_0$ intercept, value when $x=0$, i.e., for year 0
+  - better: $i$ is years after first year (0 to 49)
+  - then: $\beta_0$ is average snow depth at the start year
+- $\beta_1$ change in average snow depth per year
+- absolute trends per decade: $10*\beta_1$
+- relative trends per decade: $10* \frac{\beta_1}{\beta_0}$
+:::
+
+
+
+## {background-image="../fig/trends-djf-left_EN.png" background-size="contain" #trends-djf-left data-menu-title="Trends (absolute) winter snow depth"}
+## {background-image="../fig/trends-djf_EN.png" background-size="contain" #trends-djf data-menu-title="Trends (absolute and relative) winter snow depth"}
+## {background-image="../fig/trends-mam_EN.png" background-size="contain" #trends-mam data-menu-title="Trends (absolute and relative) spring snow depth"}
+
+
+# The future snow cover in the European Alps
+
+
+
+## Global vs. local {.smaller}
+
+::: {.aside}
+Source: [Copernicus temperature indicators](https://climate.copernicus.eu/climate-indicators/temperature)
+:::
+
+
+:::: {.columns}
+
+::: {.column}
+5-year averages
+
+(2018-2022)
+:::
+
+::: {.column}
+![](../fig/Temp_trend2022.png)
+:::
+
+::::
+
+
+## Climate and weather models  {.smaller}
+
+![](../fig/climate-model-apollo.png)
+
+What is what?
+
+- Foto from the astronauts of Apollo 17 (7 December 1972)
+- Weather model simulation (7 December 1972)
+
+<!-- left: -->
+
+::: {.aside}
+Source: [WMO](https://wmo.int/media/magazine-article/kilometre-scale-modelling-of-earth-system-new-paradigm-climate-prediction)
+:::
+
+
+## Coding errors ("bugs")
+
+![](../fig/DefectDensityResults-sm.jpg){height="500px"}
+
+::: {.aside}
+Source: [Serendipity blog](https://www.easterbrook.ca/steve/2014/05/tedx-talk-should-we-trust-climate-models/)
+:::
+
+
+
+## Climate projections are not predictions
+
+:::: {.columns}
+::: {.column}
+::: {.fragment}
+**Prediction**: 
+
+- Thus it will be.
+:::
+:::
+
+::: {.column}
+::: {.fragment .fade-in .incremental}
+**Scenario**
+
+- If A, then X.
+- If B, then Z.
+- ...
+:::
+::: {.fragment .fade-in}
+:::: {style="background-color: #ece7f2"}
+**Climate scenarios `r bs_icon("wrench-adjustable")` strategic management**
+::::
+:::
+:::
+
+::::
+
+
+## Assumptions ...
+
+
+
+
+:::: {.columns}
+
+::: {.column style="font-size:0.5em"}
+
+CMIP6, IPCC AR6 2021: **Shared Socioeconomic Pathways**
+
+::: {.incremental}
+- a world of sustainability-focused growth and equality (SSP1)
+- a “middle of the road” world where trends broadly follow their historical patterns (SSP2)
+- a fragmented world of “resurgent nationalism” (SSP3)
+- a world of ever-increasing inequality (SSP4)
+- a world of rapid and unconstrained growth in economic output and energy use (SSP5)
+- plus many other socio-economic assumptions on population growth, GDP development, ...
+:::
+
+
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Shared_Socioeconomic_Pathways.svg) and [CarbonBrief](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/)
+:::
+
+::: {.column}
+
+<img alt="Shared Socioeconomic Pathways" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Shared_Socioeconomic_Pathways.svg">
+:::
+
+::::
+
+. . . 
+
+
+-> Combined with radiative forcing in W/m², which can be related to mitigation targets
+
+## ... translated into CO2 ...
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Atmospheric_CO%E2%82%82_concentrations_by_SSP_across_the_21st_century.svg">
+
+
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways) 
+
+## ... translated into global climate
+
+<img src="https://courses.mooc.fi/api/v0/files/course/eaa6d8af-5cf8-4bac-a5d0-bc255af734bc/images/mwjrZ6l3AcBRYfdNTtmcZvPZqE2rrJ.png">
+
+Source: [mooc.fi](https://courses.mooc.fi/org/uh-inar/courses/climate-now/chapter-3/changes-to-be-expected) 
+
+## Europe's future climate 
+
+::: {.incremental style="font-size:0.9em"}
+- CMIP6 suite of global climate models (IPCC AR6, 2021)
+- CMIP5 suite of global climate models (IPCC AR5, 2013)
+- CORDEX regional climate models, dynamically downscaled CMIP5
+:::
+
+
+::: {.incremental style="font-size:0.9em"}
+- Scenario RCP8.5 (CMIP5) and ssp585 (CMIP6)
+- continuously increasing GHG concentrations in the atmosphere 
+- 4-5 °C global warming until 2100
+:::
+
+
+
+
+
+::: aside
+Source of the next figures: [Coppola et al. 2021](https://doi.org/10.1029/2019JD032344)
+:::
+
+##  {background-image="../fig/coppola-2021-tmin-djf.png" background-size="contain" #coppola-2021-tmin-djf data-menu-title="Europe winter minimum temperatures"}
+
+##  {background-image="../fig/coppola-2021-prec-djf.png" background-size="contain" #coppola-2021-prec-djf data-menu-title="Europe winter precipitation"}
+
+##  {background-image="../fig/coppola-2021-tmax-jja.png" background-size="contain" #coppola-2021-tmax-jja data-menu-title="Europe summer maximum temperatures"}
+
+##  {background-image="../fig/coppola-2021-prec-jja.png" background-size="contain" #coppola-2021-prec-jja data-menu-title="Europe summer precipitation"}
+
+## What does this mean for snow?
+
+
+Temperature `r bs_icon("thermometer-half")` `r bs_icon("arrow-up-right")`
+
+::: {.incremental}
+
+- more rain `r bs_icon("cloud-drizzle")` `r bs_icon("arrow-up-right")` instead of snowfall `r bs_icon("cloud-snow")` `r bs_icon("arrow-down-right")`
+- snow `r bs_icon("snow")` melts faster/earlier
+- more intensive snowfall `r bs_icon("cloud-snow-fill")`
+:::
+
+
+. . . 
+
+Precipitation `r bs_icon("cloud-rain-heavy-fill")` `r bs_icon("arrow-up-right")` ?
+
+
+::: {.incremental}
+- more rain `r bs_icon("cloud-drizzle")` `r bs_icon("arrow-up-right")` and more snowfall `r bs_icon("cloud-snow")` `r bs_icon("arrow-up-right")`
+:::
+
+. . . 
+
+Together (at least for the Alps):
+
+::: {.incremental}
+- less snow, short snow season
+:::
+
+
+## {background-image="../fig/future-eng-01-past.png" background-size="contain" 
+#future-snow-1 data-menu-title="Future snow cover 1"}
+## {background-image="../fig/future-eng-02-paris.png" background-size="contain" #future-snow-2 data-menu-title="Future snow cover 2"}
+## {background-image="../fig/future-eng-03-full.png" background-size="contain" #future-snow-3 data-menu-title="Future snow cover 3"}
+
+
+
+
+
+
+## Snow prophets 2023-2024?
+
+::: {.r-stack}
+![](../fig/koenigskerze.jpg){.fragment height="500"}
+
+![](../fig/merkur-schneeprophet.png){.fragment}
+:::
+
+::: aside
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Great_Mullein_(Verbascum_thapsus)_-_geograph.org.uk_-_1471894.jpg) and [Merkur](https://www.merkur.de/lokales/bad-toelz/benediktbeuern-ort28358/winter-schnee-vorhersage-weihnachten-josef-sepp-haslinger-benediktbeuern-koenigskerze-wetterkerze-92468972.html)
+:::
+
+
+## Climate dice
+
+
+`r bs_icon("dice-1")` very little snow, `r bs_icon("dice-6")` a lot of snow
+
+In the past:
+
+- [`r bsicons::bs_icon("dice-1")` `r bsicons::bs_icon("dice-2")`  `r bsicons::bs_icon("dice-3")` `r bsicons::bs_icon("dice-4")`  `r bsicons::bs_icon("dice-4")`  `r bsicons::bs_icon("dice-5")`]{.fragment .fade-in}
+
+And the future?
+
+- [`r bsicons::bs_icon("dice-1")` `r bsicons::bs_icon("dice-2")`  `r bsicons::bs_icon("dice-3")` `r bsicons::bs_icon("dice-4")`  `r bsicons::bs_icon("dice-4")`  `r bsicons::bs_icon("dice-5")`]{.fragment .strikethrough}
+- [`r bsicons::bs_icon("dice-1")` `r bsicons::bs_icon("dice-2")`  `r bsicons::bs_icon("dice-2")` `r bsicons::bs_icon("dice-2")`  `r bsicons::bs_icon("dice-3")`  `r bsicons::bs_icon("dice-5")` ?]{.fragment .fade-in}
+- [`r bsicons::bs_icon("dice-1")` `r bsicons::bs_icon("dice-1")`  `r bsicons::bs_icon("dice-2")` `r bsicons::bs_icon("dice-3")`  `r bsicons::bs_icon("dice-4")`  `r bsicons::bs_icon("dice-6")` ? ]{.fragment .fade-in}
+- [?]{.fragment .fade-in}
+
+
+
+
+
+## Contact {background-image="../fig/snow-nz-2.JPG" background-size="cover" background-opacity="0.6"}
+
+::: {style="position: absolute; bottom: 0; right: 0; text-align: right;"}
+`r bs_icon("envelope-at")` [michael.matiu@unitn.it](michael.matiu@unitn.it)
+
+`r bs_icon("globe")` [mitmat.eu](https://mitmat.eu)  
+
+`r bs_icon("file-slides")` [https://mitmat.github.io/slides-v2/](https://mitmat.github.io/slides-v2/)
+
+`r bs_icon("three-dots")` [Eurac Snow Dossier](https://www.eurac.edu/de/dossiers/dossier-schnee-suedtirol-alpen), [CliRSnow project](https://clirsnow.netlify.app)
+
+
+::: {style="font-size:0.6em"}
+Thanks to the support of: UniTrento, European Union, Eurac Research, APPA (Provincia Autonoma di Trento), Climate Action South Tyrol, Scientists4Future South Tyrol
+:::
+
+<!--
+:::: {.columns}
+
+::: {.column width="20%"}
+![](../fig/logo-unitn.jpg){height=60}
+:::
+
+::: {.column width="7%"}
+![](../fig/logo-eu.png){height=60}
+:::
+
+::: {.column width="15%"}
+![](../fig/logo-eurac.png){height=60}
+:::
+
+::: {.column width="15%"}
+![](../fig/logo-pat.png){height=60}
+:::
+
+::: {.column width="20%"}
+![](../fig/logo-cast.png){height=60}
+:::
+
+::: {.column width="15%"}
+![](../fig/logo-pow.png){height=60}
+:::
+
+::: {.column width="7%"}
+![](../fig/logo-s4fs.png){height=60}
+:::
+
+::::
+--> 
+ 
+:::
+
+
+
+
+
+
