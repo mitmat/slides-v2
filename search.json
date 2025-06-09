@@ -515,7 +515,7 @@
     "href": "index.html#about",
     "title": "Collection of slides for teaching and other presentations",
     "section": "About",
-    "text": "About\nAs of 2024, slides with revealjs in quarto. Yay!\nBefore that, slides created with RStudio, xaringan, the infinite moon reader addin, and xaringanExtra. Hosting on Github Pages inspired by tcgriffith’s intro."
+    "text": "About\nSee also my personal homepage: mitmat.eu\nAs of 2024, slides with revealjs in quarto. Yay! Source code available at the GitHub repo.\nBefore that, slides created with RStudio, xaringan, the infinite moon reader addin, and xaringanExtra. Hosting on Github Pages inspired by tcgriffith’s intro."
   },
   {
     "objectID": "index.html#license",
