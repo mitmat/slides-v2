@@ -26,7 +26,10 @@ title: "Collection of slides for teaching and other presentations"
 
 ## About
 
-As of 2024, slides with [revealjs in quarto](https://quarto.org/docs/presentations/revealjs/). Yay!
+See also my personal homepage: [mitmat.eu](https://mitmat.eu/)
+
+
+As of 2024, slides with [revealjs in quarto](https://quarto.org/docs/presentations/revealjs/). Yay! Source code available at the GitHub [repo](https://github.com/mitmat/slides-v2).
 
 Before that, slides created with RStudio, [xaringan](https://slides.yihui.org/xaringan/), the [infinite moon reader](https://yihui.org/en/2019/02/ultimate-inf-mr/) addin, and [xaringanExtra](https://pkg.garrickadenbuie.com/xaringanExtra/). Hosting on Github Pages inspired by tcgriffith's [intro](https://github.com/tcgriffith/xaringan_gh).
 
