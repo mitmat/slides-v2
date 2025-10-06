@@ -1,0 +1,153 @@
+---
+title: "Schnee im Klimawandel"
+author: "Dr. Michael Matiu"
+date: "2025/10/11"
+format:
+  revealjs: 
+    theme: [simple, custom.scss]
+editor_options: 
+  chunk_output_type: console
+title-slide-attributes:
+  data-background-image: ../fig/snow-nz-3.JPG
+  data-background-size: cover
+  data-background-opacity: "0.7"
+---
+
+```{r}
+library(bsicons)
+```
+
+
+
+## Schneebedeckung Nordhalbkugel {.smaller}
+
+
+:::: {.columns}
+
+::: {.column}
+![](../fig/nh_map_2018_2022_biweekly.gif)
+:::
+
+::: {.column}
+Januar im Mittel 47 Mill. km² ~ 
+
+::: {.incremental}
+- 150 Italiens
+- 6350 Südtirols
+- 1/3 Landfläche Nordhalbkugel
+:::
+
+:::
+
+::::
+
+
+## Schnee als natürlicher Wasserspeicher
+
+
+![](../fig/snow-nz-3.JPG){.absolute top=250 left=0 width="400"}
+![](../fig/Kraftwerk Lappach_Neves Stausee_Alperia_1200px.jpg){.absolute top=250 right=0 width="400"}
+![](../fig/eq.png){.absolute top=300 left=450 width="150"}
+
+
+::: aside
+Source: [Alperia](https://landesregierung.provinz.bz.it/de/news/umweltplane-fur-kraftwerke-lappach-muhlen-und-sarnthein-genehmigt)
+:::
+
+
+
+# Schneefall 1921-2020
+
+(unterhalb von 2000m)
+
+## {background-image="../fig/hn-study-02-sw-left.png" background-size="contain" data-menu-title="Schneefall (Südwest Alpen)"}
+## {background-image="../fig/hn-study-02-sw.png" background-size="contain" data-menu-title="Schneefall (Südwest Alpen) mit Temperature und Niederschlag"}
+## {background-image="../fig/hn-study-03-n.png" background-size="contain" data-menu-title="Schneefall (Nord Alpen) mit Temperature und Niederschlag"}
+
+# Und die Zukunft?
+
+
+## Klima- und Wettermodelle  {.smaller}
+
+![](../fig/climate-model-apollo.png)
+
+Was ist was?
+
+- Foto der Apollo 17 Astronauten (7 Dezember 1972)
+- Computermodellsimulation (7 Dezember 1972)
+
+<!-- Left: The first full picture of the Earth from space taken by Apollo 17 astronauts on 7 December 1972. Right: Simulated visible satellite image from a 1.25 km resolution simulation of the ICON model initialized with reanalysis fields on 5 December 1972 Image  -->
+
+::: {.aside}
+Source: [WMO](https://wmo.int/media/magazine-article/kilometre-scale-modelling-of-earth-system-new-paradigm-climate-prediction)
+:::
+
+
+
+
+## Klima"prognosen"
+
+:::: {.columns}
+::: {.column}
+::: {.fragment}
+**Vorhersage**: 
+
+- So wird es sein.
+:::
+:::
+
+::: {.column}
+::: {.fragment .fade-in .incremental}
+**Szenario**
+
+- Wenn A, dann X.
+- Wenn B, dann Z.
+- ...
+:::
+::: {.fragment .fade-in}
+:::: {style="background-color: #ece7f2"}
+**Klimaszenarien `r bs_icon("wrench-adjustable")` Strategisches Management**
+::::
+:::
+:::
+
+::::
+
+
+
+## Europa
+
+Szenario RCP8.5: <br/> (kontinuierlich steigende Treibhausgase in der Atmosphäre) <br/> 4-5 °C globale Erwärmung bis Ende 21. Jh.
+
+::: aside
+Source: [Coppola et al. 2021](https://doi.org/10.1029/2019JD032344)
+:::
+
+
+##  {background-image="../fig/coppola-2021-tmin-djf.png" background-size="contain" data-menu-title="Europa Winter Minimum Temperaturen Ende 21.Jh"}
+
+##  {background-image="../fig/coppola-2021-prec-djf.png" background-size="contain" data-menu-title="Europa Winter Niederschlag Ende 21.Jh"}
+
+
+## {background-image="../fig/future-ger-01-past.png" background-size="contain" data-menu-title="Schneetage Zukunft 1"}
+## {background-image="../fig/future-ger-02-paris.png" background-size="contain" data-menu-title="Schneetage Zukunft 2"}
+## {background-image="../fig/future-ger-03-full.png" background-size="contain" data-menu-title="Schneetage Zukunft 3"}
+
+
+
+
+
+
+# Kontakt {background-image="../fig/snow-nz-2.JPG" background-size="cover" background-opacity="0.6"}
+
+::: {style="position: absolute; bottom: 0; right: 0; text-align: right;"}
+`r bs_icon("envelope-at")` [michael.matiu@unitn.it](michael.matiu@unitn.it)
+
+`r bs_icon("globe")` [mitmat.eu](https://mitmat.eu)  
+
+`r bs_icon("file-slides")` [https://mitmat.github.io/slides/](https://mitmat.github.io/slides/)
+
+`r bs_icon("three-dots")` [Eurac Schnee Dossier](https://www.eurac.edu/de/dossiers/dossier-schnee-suedtirol-alpen), [CliRSnow Projekt](https://clirsnow.netlify.app)
+
+:::
+
