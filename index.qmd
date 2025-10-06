@@ -4,6 +4,8 @@ title: "Collection of slides for teaching and other presentations"
 
 ## Since 2023
 
+
+- 2025-10-11: "Schnee im Klimawandel" Kurzvortrag im GEOPARC Bletterbach ([Folien](/2025-10-11-bletterbach/bletterbach.qmd))
 - 2025-05-19: "Snow cover in a changing climate" lecture as part of the Master's course "Introduction to Climate Change" at UniTrento 2024/25 ([slides](/2025-05-19-intro-cc/intro-cc.html))
 - 2024-06-09: Bergführer Ausbildung Südtirol 2024: Schnee im Klimawandel ([Folien](/2024-06-09-berg-ausbildung/berg-ausbildung.html))
 - 2024-01-12: [Gipfelgespräche 2024](https://www.globoalpin.com/de/gipfelgespraeche-berg-und-klima-im-fokus.html), Berg und Klima, organisiert von [Globoalpin](https://www.globoalpin.com/): Schnee im Klimawandel ([Folien](/2024-01-12-bergklima/bergklima.html))
