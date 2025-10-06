@@ -259,6 +259,76 @@
     "text": "Jeder darf an Märchen glauben…\n\nEs ist keinesfalls so, dass die Wissenschaft versucht, die Meinungsfreiheit einzudämmen. Das Recht auf freie Meinungsäußerung besitzt jeder und das ist zentral für unsere Demokratie. Wenn jemand wirklich glaubt, dass die Erde eine Scheibe ist, soll derjenige seine Meinung behalten. Jeder hat das Recht, sich auf die Straße zu stellen und sich zu blamieren. Nur hat keiner das Recht darauf, damit ernst genommen zu werden.\n\n\n\n\n\nFlorian Aigner, Barfuss-Interview, “Das ist geistiges Fast Food”"
   },
   {
+    "objectID": "2025-10-11-bletterbach/bletterbach.html#schneebedeckung-nordhalbkugel",
+    "href": "2025-10-11-bletterbach/bletterbach.html#schneebedeckung-nordhalbkugel",
+    "title": "Schnee im Klimawandel",
+    "section": "Schneebedeckung Nordhalbkugel",
+    "text": "Schneebedeckung Nordhalbkugel\n\n\n\n\nJanuar im Mittel 47 Mill. km² ~\n\n\n150 Italiens\n6350 Südtirols\n1/3 Landfläche Nordhalbkugel"
+  },
+  {
+    "objectID": "2025-10-11-bletterbach/bletterbach.html#schnee-als-natürlicher-wasserspeicher",
+    "href": "2025-10-11-bletterbach/bletterbach.html#schnee-als-natürlicher-wasserspeicher",
+    "title": "Schnee im Klimawandel",
+    "section": "Schnee als natürlicher Wasserspeicher",
+    "text": "Schnee als natürlicher Wasserspeicher\n  \n\n\nSource: Alperia"
+  },
+  {
+    "objectID": "2025-10-11-bletterbach/bletterbach.html#klima--und-wettermodelle",
+    "href": "2025-10-11-bletterbach/bletterbach.html#klima--und-wettermodelle",
+    "title": "Schnee im Klimawandel",
+    "section": "Klima- und Wettermodelle",
+    "text": "Klima- und Wettermodelle\n\nWas ist was?\n\nFoto der Apollo 17 Astronauten (7 Dezember 1972)\nComputermodellsimulation (7 Dezember 1972)\n\n\n\n\nSource: WMO"
+  },
+  {
+    "objectID": "2025-10-11-bletterbach/bletterbach.html#klimaprognosen",
+    "href": "2025-10-11-bletterbach/bletterbach.html#klimaprognosen",
+    "title": "Schnee im Klimawandel",
+    "section": "Klima”prognosen”",
+    "text": "Klima”prognosen”\n\n\n\nVorhersage:\n\nSo wird es sein.\n\n\n\n\nSzenario\n\nWenn A, dann X.\nWenn B, dann Z.\n…\n\n\n\n\nKlimaszenarien   Strategisches Management"
+  },
+  {
+    "objectID": "2025-10-11-bletterbach/bletterbach.html#europa",
+    "href": "2025-10-11-bletterbach/bletterbach.html#europa",
+    "title": "Schnee im Klimawandel",
+    "section": "Europa",
+    "text": "Europa\nSzenario RCP8.5:  (kontinuierlich steigende Treibhausgase in der Atmosphäre)  4-5 °C globale Erwärmung bis Ende 21. Jh.\n\n\nSource: Coppola et al. 2021"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Collection of slides for teaching and other presentations",
+    "section": "",
+    "text": "2025-05-19: “Snow cover in a changing climate” lecture as part of the Master’s course “Introduction to Climate Change” at UniTrento 2024/25 (slides)\n2024-06-09: Bergführer Ausbildung Südtirol 2024: Schnee im Klimawandel (Folien)\n2024-01-12: Gipfelgespräche 2024, Berg und Klima, organisiert von Globoalpin: Schnee im Klimawandel (Folien)"
+  },
+  {
+    "objectID": "index.html#since-2023",
+    "href": "index.html#since-2023",
+    "title": "Collection of slides for teaching and other presentations",
+    "section": "",
+    "text": "2025-05-19: “Snow cover in a changing climate” lecture as part of the Master’s course “Introduction to Climate Change” at UniTrento 2024/25 (slides)\n2024-06-09: Bergführer Ausbildung Südtirol 2024: Schnee im Klimawandel (Folien)\n2024-01-12: Gipfelgespräche 2024, Berg und Klima, organisiert von Globoalpin: Schnee im Klimawandel (Folien)"
+  },
+  {
+    "objectID": "index.html#before-2023",
+    "href": "index.html#before-2023",
+    "title": "Collection of slides for teaching and other presentations",
+    "section": "Before 2023",
+    "text": "Before 2023\n(using Rmarkdown)\n\n2022-11-17: Environmental Meteorology Seminar series, Univerity of Trento, part of the programme of the MSc in Environmental Meteorology: Snow in the European Alps (slides)\n2022-10-19: INARCH 2022 Workshop: Downscaling approaches for climate model projections in complex terrain (slides)\n2022-05-26: EGU22: How to manage code and data for open science (and yourself) (slides)\n2021-05-12: Eurac internal course on “Advanced plotting in R”: Introduction to ggplot2 and publication-ready plots with ggplot2 (slides part one, two, three, four); material from all presenters here\n2020-11-07: Correlcon 2020: Introduction to Geodata in R (slides); other content from the conference here\n0000-00-00: Test Github Pages and xaringan slides"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Collection of slides for teaching and other presentations",
+    "section": "About",
+    "text": "About\nSee also my personal homepage: mitmat.eu\nAs of 2024, slides with revealjs in quarto. Yay! Source code available at the GitHub repo.\nBefore that, slides created with RStudio, xaringan, the infinite moon reader addin, and xaringanExtra. Hosting on Github Pages inspired by tcgriffith’s intro."
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "Collection of slides for teaching and other presentations",
+    "section": "License",
+    "text": "License\nOwn creations are CC BY 4.0, included works as specified by respective authors.\n\n\n\nLicense: CC BY 4.0"
+  },
+  {
     "objectID": "2024-01-12-bergklima/bergklima.html#section",
     "href": "2024-01-12-bergklima/bergklima.html#section",
     "title": "Schnee im Klimawandel",
@@ -488,41 +558,6 @@
     "title": "Schnee im Klimawandel",
     "section": "Jeder darf an Märchen glauben…",
     "text": "Jeder darf an Märchen glauben…\n\nEs ist keinesfalls so, dass die Wissenschaft versucht, die Meinungsfreiheit einzudämmen. Das Recht auf freie Meinungsäußerung besitzt jeder und das ist zentral für unsere Demokratie. Wenn jemand wirklich glaubt, dass die Erde eine Scheibe ist, soll derjenige seine Meinung behalten. Jeder hat das Recht, sich auf die Straße zu stellen und sich zu blamieren. Nur hat keiner das Recht darauf, damit ernst genommen zu werden.\n\n\n\n\n\nFlorian Aigner, Barfuss-Interview, “Das ist geistiges Fast Food”"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Collection of slides for teaching and other presentations",
-    "section": "",
-    "text": "2025-05-19: “Snow cover in a changing climate” lecture as part of the Master’s course “Introduction to Climate Change” at UniTrento 2024/25 (slides)\n2024-06-09: Bergführer Ausbildung Südtirol 2024: Schnee im Klimawandel (Folien)\n2024-01-12: Gipfelgespräche 2024, Berg und Klima, organisiert von Globoalpin: Schnee im Klimawandel (Folien)"
-  },
-  {
-    "objectID": "index.html#since-2023",
-    "href": "index.html#since-2023",
-    "title": "Collection of slides for teaching and other presentations",
-    "section": "",
-    "text": "2025-05-19: “Snow cover in a changing climate” lecture as part of the Master’s course “Introduction to Climate Change” at UniTrento 2024/25 (slides)\n2024-06-09: Bergführer Ausbildung Südtirol 2024: Schnee im Klimawandel (Folien)\n2024-01-12: Gipfelgespräche 2024, Berg und Klima, organisiert von Globoalpin: Schnee im Klimawandel (Folien)"
-  },
-  {
-    "objectID": "index.html#before-2023",
-    "href": "index.html#before-2023",
-    "title": "Collection of slides for teaching and other presentations",
-    "section": "Before 2023",
-    "text": "Before 2023\n(using Rmarkdown)\n\n2022-11-17: Environmental Meteorology Seminar series, Univerity of Trento, part of the programme of the MSc in Environmental Meteorology: Snow in the European Alps (slides)\n2022-10-19: INARCH 2022 Workshop: Downscaling approaches for climate model projections in complex terrain (slides)\n2022-05-26: EGU22: How to manage code and data for open science (and yourself) (slides)\n2021-05-12: Eurac internal course on “Advanced plotting in R”: Introduction to ggplot2 and publication-ready plots with ggplot2 (slides part one, two, three, four); material from all presenters here\n2020-11-07: Correlcon 2020: Introduction to Geodata in R (slides); other content from the conference here\n0000-00-00: Test Github Pages and xaringan slides"
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Collection of slides for teaching and other presentations",
-    "section": "About",
-    "text": "About\nSee also my personal homepage: mitmat.eu\nAs of 2024, slides with revealjs in quarto. Yay! Source code available at the GitHub repo.\nBefore that, slides created with RStudio, xaringan, the infinite moon reader addin, and xaringanExtra. Hosting on Github Pages inspired by tcgriffith’s intro."
-  },
-  {
-    "objectID": "index.html#license",
-    "href": "index.html#license",
-    "title": "Collection of slides for teaching and other presentations",
-    "section": "License",
-    "text": "License\nOwn creations are CC BY 4.0, included works as specified by respective authors.\n\n\n\nLicense: CC BY 4.0"
   },
   {
     "objectID": "2025-05-19-intro-cc/intro-cc.html#outline",
